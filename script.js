@@ -51,7 +51,7 @@ document.getElementById("type-value").addEventListener("input", function() {
 		typedValueElement.value = "";
 		typedValueElement.className = ""
 
-		messageElement.innerText = "done";
+		messageElement.innerText = "Press \"Start\" to replay";
 	}
 	else if (typedValue.endsWith(" ") && typedValue.trim() == words[wordIndex]){
 		quoteElement.childNodes[wordIndex + 1].className = "highlight";

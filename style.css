@@ -1,8 +1,97 @@
 .highlight {
 	background-color: yellow;
+	
 }
 
 .error {
 	background-color: lightcoral;
 	border-color: red;
+}
+
+.error:focus {
+	background-color: lightcoral;
+	border-color: red;
+}
+
+#title {
+	font-family: helvetica, arial, sans-serif;
+	position:relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 5%;
+}
+
+#center-page {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	position: absolute;
+	background-color: rgb(240, 188, 144);
+	width: 50%;
+	height: 80%;
+	left: 25%;
+	padding: 0px;
+	border-radius: 20px;
+}
+
+#divqoute {
+	position:relative;
+	display: flex;
+	justify-content: center;
+	font-size: 1.5rem;
+	background-color: rgb(236, 222, 210);
+	height: 30%;
+	border-radius: 20px;
+	margin: 5% 6% 6% 6%;
+	padding: 2% 4% 2% 4%;
+}
+
+#button {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+#start {
+	position: relative;
+	background: blanchedalmond;
+	font-size: 1.2rem;
+	border-radius: 5px;
+	padding: 9px 20px;
+}
+
+#divinput {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+#type-value {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	position: relative;
+	text-align: center;
+	font-size: 2rem;
+	width: 200px;
+	border-radius: 30px;
+	outline: none;
+}
+
+#type-value:focus {
+	position: relative;
+	background-color:antiquewhite;
+}
+
+#divmessage {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+#message {
+	position: absolute;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 1.5rem;
 }
